@@ -1,0 +1,8 @@
+curl --request POST \
+  --url http://localhost:8080/api/incident \
+  --header 'Content-Type: application/json' \
+  --header 'User-Agent: insomnia/9.3.0' \
+  --data '{
+	"name": "Error",
+	"description": "Error on download routine"
+}'

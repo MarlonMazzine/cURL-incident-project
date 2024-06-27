@@ -1,0 +1,7 @@
+curl --request PUT \
+  --url http://localhost:8080/api/incident/status/21 \
+  --header 'Content-Type: application/json' \
+  --header 'User-Agent: insomnia/9.3.0' \
+  --data '{
+	"status": "CLOSED"
+}'

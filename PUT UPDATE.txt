@@ -1,0 +1,8 @@
+curl --request PUT \
+  --url http://localhost:8080/api/incident/20 \
+  --header 'Content-Type: application/json' \
+  --header 'User-Agent: insomnia/9.3.0' \
+  --data '{
+	"name": "Error updated",
+	"description": "Error on download routine"
+}'
